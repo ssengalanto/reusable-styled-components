@@ -18,7 +18,7 @@ export const Button: React.FC = () => (
   <>
     <Presentation title="Buttons" description="Reusable button component." />
 
-    <Row justify="space-between" direction="column" gutter={[20, 0]} span={14}>
+    <Row justify="space-between" direction="column" gutter={[20, 0]} span={10}>
       <Col>
         <Text gutterBottom density="semi-bold">
           Contained Button
@@ -46,7 +46,7 @@ export const Button: React.FC = () => (
       </Col>
     </Row>
 
-    <Row justify="space-between" direction="column" gutter={[20, 0]} span={14}>
+    <Row justify="space-between" direction="column" gutter={[20, 0]} span={10}>
       <Col>
         <Text gutterBottom density="semi-bold">
           Outlined Button
